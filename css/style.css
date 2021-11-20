@@ -1,0 +1,284 @@
+body{
+  background-color: black;
+}
+.inline-block{
+    display:inline-block;
+    vertical-align:top;
+}
+div.logo{
+width:20%;
+padding:1%;
+}
+nav{
+    width:73%;
+    padding:1%;
+  }
+  ul{
+    width:60%;
+    margin-left:auto;
+    color:grey;
+    
+  }
+  li a{
+    padding: 5px;
+    text-decoration: none;
+    color: grey;
+    font-size: 20px ;
+    font-family: 'josefin sans';
+  }
+  .logo{
+    text-align:center;
+  }
+  .heroImg{
+    height:600px;
+    padding:25px;
+  }
+  .content{
+    width:500px;
+    margin:0 auto;
+    padding:1px;
+    text-align: center;
+  }
+  footer{
+    background-color:rgba(33, 33, 33, 1);
+    padding: 1%;
+    width: auto;
+    color:white;
+    
+    }
+  
+  footer ul{
+    width: 40%;
+  
+
+  }
+  footer li{
+    padding: 5px;
+    color: grey;
+    font-size: 20px ;
+    font-family: 'josefin sans';
+  }
+  footer img{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    
+  }
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+  }
+
+ 
+  .content img{
+    float:left ;
+    margin-right: 1px;
+    width:253;
+    height:300;
+  }
+
+.text-block1{
+  display:flex;
+  width:auto;
+  margin-right:0px;
+  margin-left: 0px;
+  padding-top:10px;
+  justify-content:center;
+  font-family: 'pt sans narrow';
+  font-weight: bold;
+}
+.text-block11{
+
+  color:white;
+  font-size:40px;
+}
+.text-block12{
+  margin-left:15px;
+  
+  color:grey;
+  font-size:40px;
+}
+.text-block2{
+  display:flex;
+  padding-top:1px;
+  justify-content:center;
+  font-family: 'pt sans narrow';
+  font-weight: bold;
+}
+.text-block21{
+  
+  color:grey;
+  font-size:40px;
+}
+.text-block22{
+  margin-left:15px;
+  color:white;
+  font-size:40px;
+}
+.text-block3{
+  display:flex;
+  margin-top:1px;
+  justify-content:center;
+  font-family: 'josefin sans' ;
+}
+.text-block31{
+  font-family: sans-serif;
+  color:grey;
+  font-size:21px;
+  font-weight:300;
+}
+.logo  img{
+  width:103;
+  height:83;
+
+}
+
+.flexContainer{
+  display:flex;
+  width:33%;
+  flex-direction: row;
+
+}
+ 
+.workGrid{
+  
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-rows: 270px 270px 350px;
+  grid-template-areas: 'proj1' 'proj2' 'proj3';
+  padding: 20px 0;
+  
+  
+}
+.project1{
+  grid-area: proj1;
+   align-self: center;
+  justify-self: center;
+  padding: 30px 105px;
+  background-color: #D361C0;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+.project2{
+  grid-area: proj2;
+  align-self: center;
+  justify-self: center;
+  padding: 30px 105px;
+  background-color: #02849D;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+.project3{
+  grid-area: proj3;
+  align-self: center;
+  justify-self: center;
+  padding: 30px 105px;
+  background-color: #2B4472;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.project1 img{
+  height:174px ;
+  width:241px;
+}
+.project2  img{
+
+ height:201px ;
+ width:293px;
+ 
+ 
+}
+.project3 img{
+  height:195px ;
+ width:329px;
+}
+
+
+/*-------MOBILE QUERY-------*/
+@media only screen and (max-width:600){
+  .flexContainer{
+    flex-direction: column;
+    width: 100%;
+  }
+  .workGrid{
+    grid-template-rows: 300px 300px 300px 
+    300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'proj1' 'proj2';
+    
+  }
+}
+
+.active{
+  color: white;
+}
+a:hover{
+  color: white;
+}
+
+button{
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+
+}
+button:hover{
+  background-color: gray;
+}
+
+h1{
+  font-family: 'pt sans narrow';
+  
+}
+p{
+  font-family: 'pt sans narrow';
+  
+}
+.row{
+  color: white;
+}
+
+.jumbotron{
+  background-color:#02849D ;
+  padding: 115px 0;
+  color: white;
+  text-align: center;
+  
+}
+.displaay-4{
+  font-family: 'pt sans narrow';
+  font-weight: bold;
+  font-size: 96px;
+}
+.col{
+  padding: 50px 0;
+}
+h5{
+  font-weight: bold;
+  font-family: 'pt sans narrow';
+  color: #02849D;
+  font-size: 45px;
+}
+.sub{
+  font-weight: bold;
+  font-family: 'pt sans narrow';
+  font-size:30px ;
+}
+.last{
+  width:150%
+}
+.container-all img{
+  width: 400px;
+  height: 400px;
+}
+.low-fi img{
+  width: 1000px;
+
+}
+.user-flow{
+  width: 1000px;
+}
