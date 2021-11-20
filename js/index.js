@@ -1,21 +1,20 @@
-console.log("your index.js file is loaded correctly!");
-$(' a').on ("click", function(){
-    $(' a.active').removeClass('active');
-    $(this).addClass('active');
-});
-
-$(document).ready(function(){
-    $("button").click(function(){
-      $(".idahod").animate({
-        width: 'toggle'
-      });
-    });
-  });
+/*------animate buttons on page by clicking image---*/
 
   $(document).ready(function(){
-    $("button").click(function(){
-      var div = $(".idahjo");  
-      div.animate({left: '100px'}, "slow");
-      div.animate({fontSize: '3em'}, "slow");
+    $(".animate").click(function(){
+      $(".p1button").toggle(1000);
     });
+    
+  });
+  $(document).ready(function(){
+    $(".animate2").click(function(){
+      $(".p2button").toggle(1000);
+    });
+    
+  });
+  $(document).ready(function(){
+    $(".animate3").click(function(){
+      $(".p3button").toggle(1000);
+    });
+    
   });

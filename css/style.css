@@ -282,3 +282,19 @@ h5{
 .user-flow{
   width: 1000px;
 }
+.myskills{
+  color: white;
+}
+.animate,.animate2,.animate3{
+  background-color:transparent;
+
+}
+.animate:hover{
+  background-color: transparent;
+}
+.animate2:hover{
+  background-color: transparent;
+}
+.animate3:hover{
+  background-color: transparent;
+}
